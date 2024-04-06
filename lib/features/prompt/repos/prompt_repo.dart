@@ -8,7 +8,7 @@ class PromptRepo {
   static Future<Uint8List?> generateImage(String prompt) async {
     const String url = 'https://api.vyro.ai/v1/imagine/api/generations';
     const Map<String, dynamic> headers = {
-      'Authorization': 'Bearer vk-XFHwIMfJyvxtn3g6t3CIDPS1LRty9hEv5MDFOo7FjfP6C'
+      'Authorization': 'Bearer vk-'
     };
     final Map<String, dynamic> payload = {
       'prompt': prompt,
